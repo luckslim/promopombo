@@ -1,4 +1,4 @@
-import { BookmarkIcon, HeartIcon } from "@phosphor-icons/react";
+import { BookmarkIcon, HeartIcon} from "@phosphor-icons/react";
 import {
   Badge,
   Box,
@@ -9,6 +9,7 @@ import {
   Strong,
   Text,
 } from "@radix-ui/themes";
+import { DialogRadix } from "../dialog-description";
 
 export function CardRadix() {
   return (
@@ -48,6 +49,7 @@ export function CardRadix() {
             <Button color="blue">
               <HeartIcon weight="duotone" color="#ffff" />
             </Button>
+            <DialogRadix/>
           </Flex>
         </Card>
       </Box>

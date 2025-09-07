@@ -1,5 +1,6 @@
 import {
   Box,
+  Button,
   Container,
   Flex,
   Grid,
@@ -15,7 +16,7 @@ import { TabRadix } from "../../../components/tab";
 export function Body() {
   return (
     <>
-      <Tabs.Root defaultValue="Mercado Livre">
+      <Tabs.Root defaultValue="Motoboys">
         <Container pt={"4"}>
           <Tabs.List color="orange">
             <Flex
@@ -124,35 +125,59 @@ export function Body() {
                       paddingBottom: "10px",
                       whiteSpace: "nowrap",
                     }}
-                    gap="3"
+                    gap="1"
                     align="center"
                     wrap="nowrap"
                   >
-                    <Link style={{ display: "flex" }} href="#">
-                      Games
-                    </Link>
+                    <Button>
+                      <Link style={{ display: "flex" }} href="#">
+                        Games
+                      </Link>
+                    </Button>
                     <Separator orientation="vertical" />
-                    <Link href="#">Informática</Link>
+                    <Button>
+                      <Link href="#">Informática</Link>
+                    </Button>
                     <Separator orientation="vertical" />
-                    <Link href="#">Casa</Link>
+                    <Button>
+                      <Link href="#">Casa</Link>
+                    </Button>
                     <Separator orientation="vertical" />
-                    <Link href="#">Livros</Link>
+                    <Button>
+                      <Link href="#">Livros</Link>
+                    </Button>
                     <Separator orientation="vertical" />
-                    <Link href="#">Automóveis</Link>
+                    <Button>
+                      <Link href="#">Automóveis</Link>
+                    </Button>
                     <Separator orientation="vertical" />
-                    <Link href="#">Roupas</Link>
+                    <Button>
+                      <Link href="#">Roupas</Link>
+                    </Button>
                     <Separator orientation="vertical" />
-                    <Link href="#">Tênis</Link>
+                    <Button>
+                      <Link href="#">Tênis</Link>
+                    </Button>
                     <Separator orientation="vertical" />
-                    <Link href="#">Acessórios</Link>
+                    <Button>
+                      <Link href="#">Acessórios</Link>
+                    </Button>
                     <Separator orientation="vertical" />
-                    <Link href="#">Action Figure</Link>
+                    <Button>
+                      <Link href="#">Action Figure</Link>
+                    </Button>
                     <Separator orientation="vertical" />
-                    <Link href="#">Hqs & mangás</Link>
+                    <Button>
+                      <Link href="#">Hqs & mangás</Link>
+                    </Button>
                     <Separator orientation="vertical" />
-                    <Link href="#">Jogos de Tabuleiro</Link>
+                    <Button>
+                      <Link href="#">Jogos de Tabuleiro</Link>
+                    </Button>
                     <Separator orientation="vertical" />
-                    <Link href="#">Mais Procurados</Link>
+                    <Button>
+                      <Link href="#">Mais Procurados</Link>
+                    </Button>
                   </Flex>
                 </Text>
               </Container>
@@ -185,35 +210,59 @@ export function Body() {
                       paddingBottom: "10px",
                       whiteSpace: "nowrap",
                     }}
-                    gap="3"
+                    gap="1"
                     align="center"
                     wrap="nowrap"
                   >
-                    <Link style={{ display: "flex" }} href="#">
-                      Peças
-                    </Link>
+                    <Button>
+                      <Link style={{ display: "flex" }} href="#">
+                        Games
+                      </Link>
+                    </Button>
                     <Separator orientation="vertical" />
-                    <Link href="#">Bags</Link>
+                    <Button>
+                      <Link href="#">Informática</Link>
+                    </Button>
                     <Separator orientation="vertical" />
-                    <Link href="#">Jaquetas</Link>
+                    <Button>
+                      <Link href="#">Casa</Link>
+                    </Button>
                     <Separator orientation="vertical" />
-                    <Link href="#">Corta vento</Link>
+                    <Button>
+                      <Link href="#">Livros</Link>
+                    </Button>
                     <Separator orientation="vertical" />
-                    <Link href="#">Capacetes</Link>
+                    <Button>
+                      <Link href="#">Automóveis</Link>
+                    </Button>
                     <Separator orientation="vertical" />
-                    <Link href="#">Oléo</Link>
+                    <Button>
+                      <Link href="#">Roupas</Link>
+                    </Button>
                     <Separator orientation="vertical" />
-                    <Link href="#">Botas</Link>
+                    <Button>
+                      <Link href="#">Tênis</Link>
+                    </Button>
                     <Separator orientation="vertical" />
-                    <Link href="#">Kit de Chuva</Link>
+                    <Button>
+                      <Link href="#">Acessórios</Link>
+                    </Button>
                     <Separator orientation="vertical" />
-                    <Link href="#">Kit Proteção UV</Link>
+                    <Button>
+                      <Link href="#">Action Figure</Link>
+                    </Button>
                     <Separator orientation="vertical" />
-                    <Link href="#">Escapamentos</Link>
+                    <Button>
+                      <Link href="#">Hqs & mangás</Link>
+                    </Button>
                     <Separator orientation="vertical" />
-                    <Link href="#">óculos</Link>
+                    <Button>
+                      <Link href="#">Jogos de Tabuleiro</Link>
+                    </Button>
                     <Separator orientation="vertical" />
-                    <Link href="#">Luvas</Link>
+                    <Button>
+                      <Link href="#">Mais Procurados</Link>
+                    </Button>
                   </Flex>
                 </Text>
               </Container>
