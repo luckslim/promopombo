@@ -19,7 +19,7 @@ export function Header() {
       <Box>
         <Container pt={"3"} size="2">
           <Flex  gap="2" align={"center"}>
-            <img width={100} height={100} src={logo} alt="" />
+            <img id="home" width={100} height={100} src={logo} alt="" />
             <Callout.Root color="amber">
               <Grid
                 columns={{ initial: "1", sm: "2" }}

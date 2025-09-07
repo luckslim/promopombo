@@ -12,6 +12,7 @@ import {
 } from "@radix-ui/themes";
 import { CardRadix } from "../../../components/card";
 import { TabRadix } from "../../../components/tab";
+import { ArrowFatLineUpIcon } from "@phosphor-icons/react";
 
 export function Body() {
   return (
@@ -314,6 +315,23 @@ export function Body() {
           </Container>
         </Box>
       </Tabs.Root>
+      <a href="#home">
+        <Button
+          style={{
+            position: "fixed",
+            bottom: "60px",
+            right: "20px",
+            alignItems: "center",
+            justifyContent: "center",
+            cursor: "pointer",
+            padding: "1.5rem",
+            zIndex: 1000,
+          }}
+          variant="surface"
+        >
+          <ArrowFatLineUpIcon size={32} />
+        </Button>
+      </a>
     </>
   );
 }

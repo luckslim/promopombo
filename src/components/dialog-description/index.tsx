@@ -25,44 +25,28 @@ export function DialogRadix() {
           </Button>
         </Dialog.Trigger>
 
-        <Dialog.Content maxWidth="450px">
-          <Grid
-            columns="2"
-            gap="1"
-            rows="repeat(2, 2)"
-            justify={"center"}
-            width={"auto"}
-          >
-            <Grid gap={"1"} justify={"center"}>
-              <Box maxWidth={"160px"}>
-                <Card>
-                  <Flex gap="2" align="center" justify={"center"}>
-                    <Avatar
-                      size="2"
-                      src="https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?&w=64&h=64&dpr=2&q=70&crop=focalpoint&fp-x=0.67&fp-y=0.5&fp-z=1.4&fit=crop"
-                      radius="full"
-                      fallback="T"
-                    />
-                    <Box>
-                      <Text as="div" size="1" weight="bold">
-                        Teodros Girmay
-                      </Text>
-                      <Text as="div" size="1" color="gray">
-                        Engineering
-                      </Text>
-                    </Box>
-                  </Flex>
-                </Card>
-              </Box>
-
-              <Flex gap="2">
-                <Avatar
-                  src="https://www.promobit.com.br/static/p/222170641717005892948672142758.png"
-                  fallback="A"
-                />
-                <Avatar fallback="A" />
-              </Flex>
-            </Grid>
+        <Dialog.Content maxWidth="300px">
+          <Grid gap={"2"} justify={"center"} align={"center"}>
+            <Box maxWidth={"260px"}>
+              <Card>
+                <Flex gap="2" align="center" justify={"center"}>
+                  <Avatar
+                    size="2"
+                    src="https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?&w=64&h=64&dpr=2&q=70&crop=focalpoint&fp-x=0.67&fp-y=0.5&fp-z=1.4&fit=crop"
+                    radius="full"
+                    fallback="T"
+                  />
+                  <Box>
+                    <Text as="div" size="1" weight="bold">
+                      Teodros Girmay
+                    </Text>
+                    <Text as="div" size="1" color="gray">
+                      Engineering
+                    </Text>
+                  </Box>
+                </Flex>
+              </Card>
+            </Box>
             <DataList.Root>
               <DataList.Item align="center">
                 <DataList.Label minWidth="88px">Status</DataList.Label>
@@ -93,7 +77,7 @@ export function DialogRadix() {
                 <DataList.Value>R$ 250,00</DataList.Value>
               </DataList.Item>
               <DataList.Item>
-                <DataList.Label minWidth="88px">Data de Exp</DataList.Label>
+                <DataList.Label minWidth="88px">Data de Expiração</DataList.Label>
                 <DataList.Value>
                   <Link>22/03/2025</Link>
                 </DataList.Value>
