@@ -119,9 +119,14 @@ export function Body() {
               <Container size={"4"} pb={"3"}>
                 <Text size="2">
                   <Flex
-                    style={{ overflowX: "auto", paddingBottom: "10px" }}
+                    style={{
+                      overflowX: "auto",
+                      paddingBottom: "10px",
+                      whiteSpace: "nowrap",
+                    }}
                     gap="3"
                     align="center"
+                    wrap="nowrap"
                   >
                     <Link style={{ display: "flex" }} href="#">
                       Games
@@ -175,9 +180,14 @@ export function Body() {
               <Container size={"4"} pb={"3"}>
                 <Text size="2">
                   <Flex
-                    style={{ overflowX: "auto", paddingBottom: "10px" }}
+                    style={{
+                      overflowX: "auto",
+                      paddingBottom: "10px",
+                      whiteSpace: "nowrap",
+                    }}
                     gap="3"
                     align="center"
+                    wrap="nowrap"
                   >
                     <Link style={{ display: "flex" }} href="#">
                       Peças
