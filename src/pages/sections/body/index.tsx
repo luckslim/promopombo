@@ -5,6 +5,7 @@ import {
   Grid,
   Link,
   Separator,
+  Spinner,
   Tabs,
   Text,
 } from "@radix-ui/themes";
@@ -224,8 +225,31 @@ export function Body() {
               </Grid>
             </Tabs.Content>
             <Tabs.Content value="Shopee">
-              <Text size="2">
-                Edit your profile or update contact information.
+              <Text color="gray" size="3">
+                <Flex pt={"9"} gap={"3"} align={"center"} justify={"center"}>
+                  Não há Produtos Aqui <Spinner size={"3"} />
+                </Flex>
+              </Text>
+            </Tabs.Content>
+            <Tabs.Content value="Amazon">
+              <Text color="gray" size="3">
+                <Flex pt={"9"} gap={"3"} align={"center"} justify={"center"}>
+                  Não há Produtos Aqui <Spinner size={"3"} />
+                </Flex>
+              </Text>
+            </Tabs.Content>
+            <Tabs.Content value="Magazine Luiza">
+              <Text color="gray" size="3">
+                <Flex pt={"9"} gap={"3"} align={"center"} justify={"center"}>
+                  Não há Produtos Aqui <Spinner size={"3"} />
+                </Flex>
+              </Text>
+            </Tabs.Content>
+            <Tabs.Content value="netshoes">
+              <Text color="gray" size="3">
+                <Flex pt={"9"} gap={"3"} align={"center"} justify={"center"}>
+                  Não há Produtos Aqui <Spinner size={"3"} />
+                </Flex>
               </Text>
             </Tabs.Content>
           </Container>
