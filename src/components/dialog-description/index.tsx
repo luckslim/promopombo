@@ -32,16 +32,16 @@ export function DialogRadix() {
                 <Flex gap="2" align="center" justify={"center"}>
                   <Avatar
                     size="2"
-                    src="https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?&w=64&h=64&dpr=2&q=70&crop=focalpoint&fp-x=0.67&fp-y=0.5&fp-z=1.4&fit=crop"
+                    src="http://localhost:5173/src/assets/Logo.png"
                     radius="full"
                     fallback="T"
                   />
                   <Box>
                     <Text as="div" size="1" weight="bold">
-                      Teodros Girmay
+                      Pombo
                     </Text>
                     <Text as="div" size="1" color="gray">
-                      Engineering
+                      Administrador
                     </Text>
                   </Box>
                 </Flex>
